@@ -1,7 +1,0 @@
-about git
-------------
-git init
-git add
-git commit
---GitHubでリポジトリの新規作成
-git push -u origin master
