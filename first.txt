@@ -3,4 +3,5 @@ about git
 git init
 git add
 git commit
-git push?
+--GitHubでリポジトリの新規作成
+git push -u origin master
