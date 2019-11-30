@@ -5,3 +5,7 @@ git add
 git commit
 --GitHubでリポジトリの新規作成
 git push -u origin master
+git status
+git log --oneline 変更内容を一行ずつ表示
+git log -p  変更内容を表示
+git log -n 3 ３つの変更を表示
