@@ -4,8 +4,15 @@ git init
 git add
 git commit
 --GitHubでリポジトリの新規作成
+git remote add origin https://github.com/yokoyamada/learngit
+  *origin というのはgit がデフォルトでつける↑のURLのエイリアスのこと
 git push -u origin master
 git status
 git log --oneline 変更内容を一行ずつ表示
 git log -p  変更内容を表示
 git log -n 3 ３つの変更を表示
+
+git rm [filename]           --ファイルを削除する
+git rm -r [directoryname]   --ディレクトリを削除する
+git rm --cashed [filename]  --ファイルは残してgit の管理から外す
+git reset HEAD              --元の状態に戻す
